@@ -1,5 +1,5 @@
 import './ProductCard.css';
-
+import formatCurrency from 'format-currency';
 const ProductCard =({product})=>{
      return(
        <div className='productCard__wrapper'>
