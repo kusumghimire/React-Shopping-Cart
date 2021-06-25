@@ -1,8 +1,8 @@
-
+import './ProductCard.css';
 
 const ProductCard =({product})=>{
      return(
-       <div className='productCard_wrapper'>
+       <div className='productCard__wrapper'>
         <div>
             <img className='productCard__img' src={product.image} alt='' />
             <h4>{product.name}</h4>
