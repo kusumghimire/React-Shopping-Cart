@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CartState from './context/cart/CartState';
 
 ReactDOM.render(
   <React.StrictMode>
