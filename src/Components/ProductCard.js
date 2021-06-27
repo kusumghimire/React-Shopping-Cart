@@ -1,5 +1,6 @@
 import "./ProductCard.css";
 import formatCurrency from "format-currency";
+import Rating from "./Rating";
 const ProductCard = ({ product }) => {
   let opts = { format: "%s%v", symbol: "$" };
   return (
