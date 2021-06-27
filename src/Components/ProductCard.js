@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
           <h5>{formatCurrency(`${product.price}`, opts)}</h5>
         </div>
         <div className="ProductCard__Rating">
-          <Rating />
+          <Rating value={product.rating} text={`${product.numReviews} reviews`}/>
         </div>
         <button className="ProductCard__button">Add to basket</button>
       </div>
