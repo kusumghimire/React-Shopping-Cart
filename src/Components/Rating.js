@@ -18,7 +18,7 @@ const Rating = ({value, text, color}) =>{
     </i>
 </span>
             ))}
-    <span>{text && text}</span>
+    <span style={{marginLeft:'5px'}}>{text && text}</span>
         </div>
     )
 }

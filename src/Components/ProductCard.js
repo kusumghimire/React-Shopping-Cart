@@ -10,8 +10,8 @@ const ProductCard = ({ product }) => {
   let opts = { format: "%s%v", symbol: "$" };
   return (
     <div className="productCard__wrapper">
-      <div>
         <img className="productCard__img" src={product.image} alt="" />
+      <div style={{padding:"15px"}} >
         <h4>{product.name}</h4>
         <div className="ProductCard__price">
           <h5>{formatCurrency(`${product.price}`, opts)}</h5>

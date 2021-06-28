@@ -1,9 +1,7 @@
 .productCard__wrapper {
     width: 30%;
-    padding: 10px;
-    border: 1px solid gray;
+    border: 1px solid #E5E5E1;
     border-radius: 12px;
-    margin: auto;
     word-wrap: break-word;
   }
   
@@ -23,6 +21,7 @@
   }
   
   .ProductCard__button {
+    margin-top: 10px;
     padding: 6px 10px;
     cursor: pointer;
     border-radius: 25px;
@@ -44,7 +43,7 @@
   
   @media screen and (max-width: 1147px) {
     .productCard__wrapper {
-      width: 45%;
+      width: 30%;
     }
   }
   
