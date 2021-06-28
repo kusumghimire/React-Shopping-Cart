@@ -30,7 +30,7 @@ const CartState = ({children}) =>{
         showHideCart,
         removeItem
     }}>
-
+{children}
 </CartContext.Provider>
     )
 }
